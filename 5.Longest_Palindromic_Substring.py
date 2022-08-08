@@ -19,3 +19,8 @@ class Solution:
             t = s[index-d+2:index+d]
             if len(t)>len(res):
                 res = t
+
+
+            index+=1
+
+        return res
